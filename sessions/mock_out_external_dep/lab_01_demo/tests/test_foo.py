@@ -1,6 +1,7 @@
-import pytest
 import math
+
 import mock
+import pytest
 
 from sessions.mock_out_external_dep.lab_01_demo import foo
 
@@ -47,4 +48,3 @@ def test_append_num_mock_full(mock_db):
     with pytest.raises(OverflowError):
         foo.store_num(5)
     mock_db.add.assert_called()
-
