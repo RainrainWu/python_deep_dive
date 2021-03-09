@@ -1,0 +1,9 @@
+site_name: python_deep_dive
+nav:
+  - Home: README.md
+  - Contributing: contributing.md
+theme:
+  name: 'material'
+repo_url: https://github.com/RainrainWu/python_deep_dive
+remote_branch: gh-pages
+remote_name: origin

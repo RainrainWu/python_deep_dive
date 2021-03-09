@@ -1,0 +1,3 @@
+[bandit]
+targets: python_deep_dive
+exclude: tests
